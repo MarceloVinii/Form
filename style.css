@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.screen {
+  display: flex;
+  height: 100vh;
+  background-color: rgb(157, 179, 219);
+}
+
+.leftside {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftside img {
+  max-width: 500px;
+  height: auto;
+  background-color: rgb(157, 179, 219);
+}
+
+.rightside {
+  width: 400px;
+  background-color: rgb(33, 48, 77);
+  color: white;
+  padding: 50px;
+}
+
+.rightside label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.rightside input {
+  width: 100%;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 15px;
+  /*outline: 0; */ /* Para tirar a borda do próprio navegador */
+}
+
+.account a {
+  color: aqua;
+}
+
+.error {
+  font-size: 13px;
+  background-color: #FF0000;
+  color: #FFF;
+  padding: 4px;
+  border-radius: 5px;
+}
